@@ -42,6 +42,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('RedCloth', "~> 4.2")
   s.add_development_dependency('kramdown', "~> 1.2")
   s.add_development_dependency('rdiscount', "~> 1.6")
+  s.add_development_dependency('org-ruby', "~> 0.8.1")
   s.add_development_dependency('launchy', "~> 2.3")
   s.add_development_dependency('simplecov', "~> 0.7")
   s.add_development_dependency('simplecov-gem-adapter', "~> 1.0.1")
@@ -90,6 +91,7 @@ Gem::Specification.new do |s|
     lib/jekyll/converters/markdown/maruku_parser.rb
     lib/jekyll/converters/markdown/rdiscount_parser.rb
     lib/jekyll/converters/markdown/redcarpet_parser.rb
+    lib/jekyll/converters/org.rb
     lib/jekyll/converters/textile.rb
     lib/jekyll/convertible.rb
     lib/jekyll/core_ext.rb
